@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "If code works don't touch it! 😌"{" "}
+            "It's not a bug - it's an undocumented feature. 😉"{" "}
           </p>
-          <footer className="blockquote-footer">Gaurav</footer>
+          <footer className="blockquote-footer">Ansh</footer>
         </blockquote>
       </Card.Body>
     </Card>
