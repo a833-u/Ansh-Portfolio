@@ -8,7 +8,10 @@ import {
   SiVercel,
   SiMacos,
   SiNetlify,
-  SiPycharm
+  SiPycharm,
+  SiGithub,
+  SiBootstrap,
+  SiXampp
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,6 +32,15 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+       <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiXampp />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
