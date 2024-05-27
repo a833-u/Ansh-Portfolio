@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/blog.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -40,6 +40,17 @@ function Projects() {
               description="Web application which is provide play role as interface between local, skilled an talented artist and recruirers whom want to hire them for event or concert etc.It is built on NodeJS, html, css, js."
               ghLink="https://github.com/Gaurav151008/kalakaarWeb"
               // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Book'n'Stay"
+              description="It is a hotel booking website which can book several hotel rooms, suites, etc."
+              ghLink="https://github.com/a833-u/Book-n-Stay"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
