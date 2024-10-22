@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/blog.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Kalakaar from "../../Assets/Projects/Kalakaar.png";
+import EduConnect from "../../Assets/Projects/EduConnect.png";
+import PropVista from "../../Assets/Projects/PropVista.png";
+import BooknStay from "../../Assets/Projects/BooknStay.png";
 
 function Projects() {
   return (
@@ -34,10 +33,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Kalakaar}
               isBlog={false}
               title="Kalakaar"
-              description="Web application which is provide play role as interface between local, skilled an talented artist and recruirers whom want to hire them for event or concert etc.It is built on NodeJS, html, css, js."
+              description="KalaKaar is a web application designed to bridge the gap between artists and job opportunities, offering a platform where artists can showcase their portfolios, find work, and connect with potential employers. The app combines the features of LinkedIn, Instagram, and Freelancer to provide a comprehensive experience for both artists and recruiters. Users can post job listings, browse through artist portfolios, and engage with creative talent in various fields like painting, photography, music, and more."
               ghLink="https://github.com/Gaurav151008/kalakaarWeb"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -45,7 +44,29 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={PropVista}
+              isBlog={false}
+              title="PropVista"
+              description="PropVista is a real estate web application developed using the MERN stack, designed to simplify property search and listings for both buyers and sellers. The platform allows users to browse, search, and filter property listings based on their preferences, making it easier to find suitable homes or investment properties. Sellers can also post their properties with detailed descriptions, images, and pricing information."
+              ghLink="https://github.com/a833-u/Real-Estate1"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={EduConnect}
+              isBlog={false}
+              title="EduConnect"
+              description="EduConnect is an innovative platform designed to bridge the gap between educators, students, and educational institutions. The web application offers a centralized space where users can access and share educational resources, participate in discussions, and connect with mentors. EduConnect provides tools for managing courses, conducting virtual classes, and fostering collaboration among learners and teachers."
+              ghLink="https://github.com/a833-u/educonnectt"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BooknStay}
               isBlog={false}
               title="Book'n'Stay"
               description="It is a hotel booking website which can book several hotel rooms, suites, etc."
